@@ -6,7 +6,7 @@ const change = setInterval(() => {
     document.title =
         showingAlert ? title : messages;
         showingAlert = !showingAlert;
-}, 1800);
+}, 1000);
 
 var imgs = [
     "梅子雪碧.jpg",
