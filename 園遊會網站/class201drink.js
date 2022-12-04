@@ -1,3 +1,13 @@
+let showingAlert = false;
+const title = '心痛的一班 飲料介紹';
+const messages = '心痛的一班 飲料介紹🍹';
+
+const change = setInterval(() => {
+    document.title =
+        showingAlert ? title : messages;
+        showingAlert = !showingAlert;
+}, 1800);
+
 var imgs = [
     "梅子雪碧.jpg",
     "紅茶.jpg",

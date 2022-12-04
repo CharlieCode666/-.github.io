@@ -1,3 +1,13 @@
+let showingAlert = false;
+const title = '心痛的一班💓';
+const messages = '心痛的一班💔';
+
+const change = setInterval(() => {
+    document.title =
+        showingAlert ? title : messages;
+        showingAlert = !showingAlert;
+}, 1800);
+
 setInterval(() => {
 let hours = document.getElementById('hours');
 let minutes = document.getElementById('minutes');

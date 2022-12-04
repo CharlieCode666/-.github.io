@@ -1,3 +1,13 @@
+let showingAlert = false;
+const title = '心痛的一班 小吃介紹';
+const messages = '心痛的一班 小吃介紹🍟';
+
+const change = setInterval(() => {
+    document.title =
+        showingAlert ? title : messages;
+        showingAlert = !showingAlert;
+}, 1800);
+
 var imgs = [
     "薯條.jpg",
     "地瓜球.jpg"
