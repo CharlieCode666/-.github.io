@@ -1,0 +1,92 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: #2a2640;
+}
+
+.box1{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #5b98eb;
+}
+
+.h01{
+    color: #ffff00;
+    font-size: 40px;
+    text-shadow: 2px 2px #ff33cc, 4px 4px #000000;
+    transition: 1s;
+}
+
+.h01:hover{
+    transform: scale(1.2);
+}
+
+/* ===== 位置 ===== */
+
+.box2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    background: #222;
+}
+
+.h02{
+    color: #3399ff;
+    font-size: 40px;
+    text-shadow: 2px 2px #66ffff, 4px 4px #ffffff;
+}
+
+.box3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 150px;
+    background: #222;
+}
+
+.h03{
+    color: #ff3399;
+    font-size: 40px;
+    text-shadow: 2px 2px #ff66ff, 4px 4px #ffffff;
+}
+
+.box4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+    background: #222;
+}
+
+
+.aa{
+    color: #00ff00;
+    font-size: 50px;
+    text-shadow: 2px 2px #00ffff, 4px 4px #ffffff;
+    animation: 1.5s colorlol infinite;
+}
+
+@keyframes colorlol{
+    0%,100%{
+        color: #00ff00;
+        text-shadow: 2px 2px #00ffff, 4px 4px #ffffff;
+        transform: translateY(10px);
+    }
+    50%{
+        color: #00ffff;
+        text-shadow: 2px 2px #00ff00, 4px 4px #ffffff;
+        transform: translateY(-10px);
+    }
+}
