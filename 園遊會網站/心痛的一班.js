@@ -54,4 +54,4 @@ sec_dot.style.transform = `rotate(${s * 6}deg)`; // 360 / 60 = 6 簡單數學
 })
 
 setTimeout(function(){alert("Hellow! 歡迎來到心痛的一班網站!")},4000);
-setTimeout(function(){alert("我們會2022/12/10開始營業,可以點選Location下的Read More查看201班的位置")},4100);
+setTimeout(function(){alert("我們會在2022/12/10開始營業,可以點選Location下的Read More查看201班的位置")},4100);
